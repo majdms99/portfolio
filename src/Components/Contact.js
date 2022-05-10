@@ -32,7 +32,7 @@ const Contact = () => {
             id: '3',
             icone: <FaTelegram size={35} />,
             name: 'Telegram',
-            value: '00-963-937-997-908',
+            value: 'https://t.me/majdsalameh',
             link: 'https://t.me/majdsalameh',
             contact: 'Write me'
         },

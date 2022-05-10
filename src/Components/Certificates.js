@@ -59,7 +59,7 @@ const Certificates = () => {
                             data.map((item, index) => {
                                 return (
                                     <SliderItem dark={dark} key={index}>
-                                        <img src={item.fields.image.fields.file.url} alt="" />
+                                        <img loading='lazy' src={item.fields.image.fields.file.url} alt="" />
                                         <p>{item.fields.name}</p>
                                         <div>
                                             <a href={item.fields.demo} target="_blank" rel="noreferrer"><FaRegEye size={14} /> View</a>

@@ -44,7 +44,7 @@ const Menu = () => {
 
     return (
 
-        <MenuStyle bg={dark ? '#02010d' : '#fff'}>
+        <MenuStyle dark={dark}>
             <IconsLink>
                 {
                     data.map(item => {
