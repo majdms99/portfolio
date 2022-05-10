@@ -16,29 +16,33 @@ const Contact = () => {
             id: '1',
             icone: <SiGmail size={35} />,
             name: 'E-mail',
-            value: 'majdmhdsalameh99@gmail.com',
-            link: 'mailto:majdmhdsalameh99@gmail.com'
+            value: 'majdsalamehfrontend@gmail.com',
+            link: 'mailto:majdsalamehfrontend@gmail.com',
+            contact: 'Write me'
         },
         {
             id: '2',
             icone: <FaPhone size={35} />,
             name: 'Phone Number',
             value: '00-963-937-997-908',
-            link: 'tel:00-963-937-997-908'
+            link: 'tel:00-963-937-997-908',
+            contact: 'Call me'
         },
         {
             id: '3',
             icone: <FaTelegram size={35} />,
             name: 'Telegram',
             value: '00-963-937-997-908',
-            link: 'https://t.me/majdsalameh'
+            link: 'https://t.me/majdsalameh',
+            contact: 'Write me'
         },
         {
             id: '4',
             icone: <FaWhatsapp size={35} />,
             name: 'Whatsapp',
             value: '00-963-937-997-908',
-            link: 'https://wa.me/qr/IO74L7WT432TG1'
+            link: 'https://wa.me/qr/IO74L7WT432TG1',
+            contact: 'Write me'
         },
 
     ]
@@ -54,8 +58,8 @@ const Contact = () => {
                                 <BoxInfo dark={dark} key={item.id}>
                                     {item.icone}
                                     <h6>{item.name}</h6>
-                                    <p>P{item.value}</p>
-                                    <a href={item.link} target='_blank' rel="noreferrer">Write me</a>
+                                    <p>{item.value}</p>
+                                    <a href={item.link} target='_blank' rel="noreferrer">{item.contact}</a>
                                 </BoxInfo>
                             )
                         })

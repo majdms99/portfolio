@@ -9,6 +9,11 @@ export const MousScrollStyle = styled.a`
     flex-direction: column;
     color: #7C89D1;
 
+  
+    
+`
+export const Box = styled.div`
+
     &>span{
         position: relative;
     }
