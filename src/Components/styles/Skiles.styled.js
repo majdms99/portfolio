@@ -56,7 +56,7 @@ export const BoxInfo = styled.div`
             font-weight: 600;
              @media(max-width:586px){
                  font-size: 16px;
-                  padding:10px 0;
+                  /* padding:10px 0; */
              }
         
 
