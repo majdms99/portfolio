@@ -9,7 +9,7 @@ import { createClient } from 'contentful'
 
 const About = () => {
 
-    const [data, setData] = useState()
+    const [data, setData] = useState([])
 
     const fetchData = async () => {
 
@@ -20,7 +20,7 @@ const About = () => {
 
         const res = await client.getEntries({ content_type: 'aboutMe' })
         // console.log('data', res.items);
-        setData(res.items[0])
+        setData(res.items)
     }
 
     useEffect(() => {
@@ -38,7 +38,14 @@ const About = () => {
                     <Image src='./react-photo.svg' />
                     <BoxInfo>
                         {/* <p>My name is Majd Mohammad Salameh, from Tartous Syria, I study communications technology -  mobile communications systems at the Syrian Virtual University, I work as a Front-end with more than one year of experience and I am interested In the field of web development, programming and Internet of things systems</p> */}
-                        <p>{data ? data.fields.description : ''}</p>
+                        {
+                            data.map((item, index) => {
+                                return (
+                                    <p key={index}>{item.fields.description} </p>
+                                )
+                            })
+                        }
+
                         <Button href='#about' bg='#929DD9' color='#070914'>Contact Me</Button>
                     </BoxInfo>
                 </AboutStyle>

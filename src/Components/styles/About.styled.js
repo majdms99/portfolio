@@ -30,6 +30,11 @@ padding: 0 40px;
         font-size: 14px;
         opacity: 0.8;
         line-height: 1.6;
-        margin-bottom: 30px;
+        margin-top: -15px;
+        margin-bottom: 20px;
+    
+    }
+    &>p:last-child{
+        
     }
 `

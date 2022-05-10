@@ -28,7 +28,8 @@ export const BoxInfo = styled.div`
 
     @media(max-width:400px){
         width: 100%;
-        margin: auto;
+        margin:15px auto;
+        padding: 40px 15px;
     }
 
     &>h3{
@@ -36,6 +37,8 @@ export const BoxInfo = styled.div`
         text-align: center;
         color: #7C89D1;
         margin-bottom: 30px;
+
+         
     }
 
     &>ul{
@@ -51,6 +54,10 @@ export const BoxInfo = styled.div`
             padding:10px;
             font-size: 18px;
             font-weight: 600;
+             @media(max-width:586px){
+                 font-size: 16px;
+                  padding:10px 0;
+             }
         
 
             &>span{

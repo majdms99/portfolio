@@ -17,7 +17,7 @@ const Header = () => {
     // const darkMode = localStorage.getItem('dark');
     // console.log(darkMode)
     return (
-        <HeaderStyled>
+        <HeaderStyled >
             <Container>
                 <Nav>
                     <Logo><FaTeamspeak size={25} color={'#7C89D1'} />Majd<span>.</span></Logo>

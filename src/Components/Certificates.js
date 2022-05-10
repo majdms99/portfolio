@@ -32,7 +32,7 @@ const Certificates = () => {
         dots: true,
         arrows: false,
         infinite: true,
-        speed: 500,
+        speed: 750,
         autoplay: true,
         slidesToShow: 2,
         slidesToScroll: 1,
