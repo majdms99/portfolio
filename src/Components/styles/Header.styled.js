@@ -4,6 +4,9 @@ export const HeaderStyled = styled.nav`
     height: 80px;
     display: flex;
     align-items: center;
+    position: absolute;
+    width: 100%;
+    
 `
 
 export const Nav = styled.div`

@@ -8,8 +8,8 @@ export const MenuStyle = styled.nav`
     transform: translateX(-50%);
     opacity: 0.8;
     border-radius: 30px;
-   background-color: ${({ dark }) => dark ? 'rgb(2 1 13 / 81%)' : 'rgb(255 255 255 / 81%)'};
-   backdrop-filter: blur(10px);
+   background-color: ${({ dark }) => dark ? 'rgb(2 1 13 / 60%)' : 'rgb(255 255 255 / 60%)'};
+   backdrop-filter: blur(15px);
     padding: 20px;
 `
 
