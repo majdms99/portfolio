@@ -20,9 +20,15 @@ export const SliderItem = styled.div`
     border-radius: 20px;
     height: 280px;
 
+    @media(max-width:586px){
+        height: auto;
+    }
+
     &>img{
         width: 100%;
          border-radius: 20px;
+         height: 180px;
+         overflow: hidden;
     }
 
     &>p{
