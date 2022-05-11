@@ -35,7 +35,7 @@ const About = () => {
                 <SubTitle>My Intro</SubTitle>
                 <Title>About Me</Title>
                 <AboutStyle>
-                    <Image src='./react-photo.svg' />
+                    <Image src='./react-photo.svg' width='100%' height='100%' alt='Hero image' />
                     <BoxInfo>
                         {/* <p>My name is Majd Mohammad Salameh, from Tartous Syria, I study communications technology -  mobile communications systems at the Syrian Virtual University, I work as a Front-end with more than one year of experience and I am interested In the field of web development, programming and Internet of things systems</p> */}
                         {

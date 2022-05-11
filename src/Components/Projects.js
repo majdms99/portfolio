@@ -60,11 +60,11 @@ const Projects = () => {
                             data ? data.map((item, index) => {
                                 return (
                                     <SliderItem dark={dark} key={index}>
-                                        <img src={item.fields.image.fields.file.url} alt="" />
+                                        <img src={item.fields.image.fields.file.url} width='100%' height='100%' alt={item.fields.name} />
                                         <p>{item.fields.name}</p>
                                         <div>
-                                            <a href={item.fields.demo} target="_blank" rel="noreferrer"><FaRegEye size={14} /> Demo</a>
-                                            <a href={item.fields.code} target="_blank" rel="noreferrer"><FaCode size={14} /> Code</a>
+                                            <a href={item.fields.demo} target="_blank" rel="noreferrer" aria-hidden="true"><FaRegEye size={14} /> Demo</a>
+                                            <a href={item.fields.code} target="_blank" rel="noreferrer" aria-hidden="true"><FaCode size={14} /> Code</a>
                                         </div>
                                     </SliderItem>
                                 )
