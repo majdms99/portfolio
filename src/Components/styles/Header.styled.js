@@ -6,6 +6,7 @@ export const HeaderStyled = styled.nav`
     align-items: center;
     position: absolute;
     width: 100%;
+    z-index: 20;
     
 `
 
