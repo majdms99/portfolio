@@ -19,19 +19,19 @@ import { Spinners } from "./Components/styles/Spinners.styled";
 
 function App() {
 
-  const { dark, setDark } = useContext(ModeContext);
+  const { dark } = useContext(ModeContext);
   const [loading, setLoading] = useState(false);
 
 
-  var today = new Date();
-  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+  // var today = new Date();
+  // var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
-  if (time >= '7:00:00' && time <= '19:00:00') {
-    setDark(false);
+  // if (time >= '7:00:00' && time <= '19:00:00') {
+  //   setDark(false);
 
-  } else {
-    setDark(true);
-  }
+  // } else {
+  //   setDark(true);
+  // }
 
   useEffect(() => {
     setLoading(true)
