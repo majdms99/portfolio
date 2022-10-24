@@ -46,7 +46,7 @@ const About = () => {
                             })
                         }
 
-                        <Button href='#about' bg='#929DD9' color='#070914'>Contact Me</Button>
+                        <Button href='#contact' bg='#929DD9' color='#070914'>Contact Me</Button>
                     </BoxInfo>
                 </AboutStyle>
                 {console.log(data)}

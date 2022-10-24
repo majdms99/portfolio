@@ -33,7 +33,7 @@ const FirstSection = () => {
                         </ButtonGroup>
                     </Fade>
                     <Fade bottom  >
-                        <img src='./photo.jpg' width='100%' height='100%' alt="My_photo" />
+                        <img src='./new.jpeg' width='100%' height='100%' alt="My_photo" />
                     </Fade>
                 </BoxInfo>
 

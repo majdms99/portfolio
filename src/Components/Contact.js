@@ -16,8 +16,8 @@ const Contact = () => {
             id: '1',
             icone: <SiGmail size={35} />,
             name: 'E-mail',
-            value: 'majdsalamehfrontend@gmail.com',
-            link: 'mailto:majdsalamehfrontend@gmail.com',
+            value: 'majdmhdsalameh99@gmail.com',
+            link: 'mailto:majdmhdsalameh99@gmail.com',
             contact: 'Write me'
         },
         {
