@@ -50,7 +50,9 @@ const Menu = () => {
                     data.map(item => {
                         return (
                             <IconItem key={item.id}>
-                                <Link to={item.link}>{item.icone}</Link>
+                                <Link
+                                    activeClass='active'
+                                    spy={true} to={item.link}>{item.icone}</Link>
                             </IconItem>
                         )
                     })

@@ -53,7 +53,7 @@ const Projects = () => {
         <ProjectsStyle id='projects'>
             <Container>
                 <SubTitle>My portfolio</SubTitle>
-                <Title>Recent Works</Title>
+                <Title>My Projects</Title>
                 <BoxSlider>
                     <Slider {...settings}>
                         {

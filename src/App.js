@@ -3,6 +3,7 @@ import About from "./Components/About";
 import Certificates from "./Components/Certificates";
 import Contact from "./Components/Contact";
 import FirstSection from "./Components/FirstSection";
+import Work from "./Components/Work";
 import Header from "./Components/Header";
 import Menu from "./Components/Menu";
 import Projects from "./Components/Projects";
@@ -21,17 +22,6 @@ function App() {
 
   const { dark } = useContext(ModeContext);
   const [loading, setLoading] = useState(false);
-
-
-  // var today = new Date();
-  // var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-
-  // if (time >= '7:00:00' && time <= '19:00:00') {
-  //   setDark(false);
-
-  // } else {
-  //   setDark(true);
-  // }
 
   useEffect(() => {
     setLoading(true)
@@ -61,6 +51,7 @@ function App() {
             <FirstSection />
             <About />
             <Skiles />
+            <Work />
             <Projects />
             <Certificates />
             <Contact />
