@@ -22,6 +22,7 @@ export const BoxesWork = styled.div`
 export const Logo = styled.img`
 width: 50px;
 height: 50px;
+margin-right: 15px;
 `;
 
 export const Info = styled.div`
@@ -49,7 +50,6 @@ position: relative;
   padding: 20px;
   width: 375px;
   display: flex;
-  gap: 20px;
   align-items: center;
   background-color: ${({ dark }) => (dark ? "#02010d" : "#fff")};
   box-shadow: ${({ dark }) =>
